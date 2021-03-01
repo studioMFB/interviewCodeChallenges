@@ -1,0 +1,31 @@
+ //string line = Console.ReadLine().ToLower();
+            string line = "A slow yellow fox ] crawls under the proactive # dog";
+            // outpout bjkmqz
+            //string line = "A quick brown fox / jumps over the lazy dog -+";
+            // output NULL
+            #region Create alphabet
+            List<Char> alphabetList = new List<Char>();
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            foreach (char letter in alphabet){
+                alphabetList.Add(letter); }
+            #endregion
+
+            #region Read all letters in input line
+            foreach (char letter in line) {
+                if (alphabetList.Contains(letter)){
+                    alphabetList.Remove(letter);
+                }
+            }
+            #endregion
+            // Checks if input line is a Pangram
+            if (alphabetList.Count == 0){
+                line = "NULL"; // Output if Pangram
+            }
+            else{
+                // Otherwise output missing letters in alphabetic order
+                line = ""; // clear line
+                foreach (char letter in alphabetList){
+                    line += letter;
+                }
+            }
+            Console.WriteLine(line);

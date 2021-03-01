@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmChallenge", "ArmChallenge\ArmChallenge.csproj", "{F699CD5E-DA94-470C-9A45-394DC6861F5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F699CD5E-DA94-470C-9A45-394DC6861F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F699CD5E-DA94-470C-9A45-394DC6861F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F699CD5E-DA94-470C-9A45-394DC6861F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F699CD5E-DA94-470C-9A45-394DC6861F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84BE5331-8B48-4AF1-AE91-D639E91B74AB}
+	EndGlobalSection
+EndGlobal
